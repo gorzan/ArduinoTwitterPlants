@@ -3,7 +3,7 @@
 #include <MemoryFree.h>
 
 char ssid[] = "Fort Vika"; //  your network SSID (name) 
-char pass[] = "newyorknewyork";    // your network password (use for WPA, or use as key for WEP)
+char pass[] = "";    // your network password (use for WPA, or use as key for WEP)
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
 int status = WL_IDLE_STATUS;
